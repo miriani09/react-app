@@ -1,0 +1,13 @@
+@import "styles/style";
+
+.text{
+    @include fontColor;
+}
+
+button{
+    border-radius: 10px;
+    color: olivedrab;
+}
+button:hover{
+    background-color: wheat;
+}
